@@ -18,6 +18,12 @@ module.exports = {
       }
     },
   },
+  safelist: [
+    "bg-red-500",
+    "hover:bg-red-600",
+    "bg-green-500",
+    "hover:bg-green-600"
+  ],
   plugins: [
     require("@tailwindcss/forms"),
     // Allows prefixing tailwind classes with LiveView classes to add rules
